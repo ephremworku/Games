@@ -8,7 +8,6 @@ Author:
 '''
 import sys
 import warnings
-from PyQt5.QtWidgets import QApplication
 if __name__ == '__main__':
     from core import *
 else:
@@ -38,8 +37,6 @@ class CPGames():
         supported_games = {
             'ski': SkiGame,
             'maze': MazeGame,
-            'gobang': GobangGame,
-            'tetris': TetrisGame,
             'pacman': PacmanGame,
             'gemgem': GemGemGame,
             'tankwar': TankWarGame,
